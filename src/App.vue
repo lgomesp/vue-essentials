@@ -4,12 +4,12 @@
       :cart="cart"
       :cartQty="cartQty"
       :cartTotal="cartTotal"
-      @add="addItem"
-      @toggle="toggleSliderStatus"
-      @delete="deleteItem"
       :sliderStatus="sliderStatus"
       :maximum.sync="maximum"
       :products="products"
+      @add="addItem"
+      @toggle="toggleSliderStatus"
+      @delete="deleteItem"
     ></router-view>
   </div>
 </template>
